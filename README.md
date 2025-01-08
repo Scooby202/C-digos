@@ -51,16 +51,16 @@ Contém secção de comentários, que funciona com userState.
 Com o React, abaixe os arquivos e abra o arquivo Principal.jsx no terminal com o seguinte comando:
 </p>
 <p>
-1.git clone git@github.com:Scooby202/Processo-Trainee.git
+1. git clone git@github.com:Scooby202/Processo-Trainee.git
 </p>
 <p>
-2.cd Processo-Trainee
+2. cd Processo-Trainee
 </p>
 <p>
-3.npm install
+3. npm install
 </p>
 <p>
-4.npm run dev
+4. npm run dev
 </p>
 
 ### Usuários: 
