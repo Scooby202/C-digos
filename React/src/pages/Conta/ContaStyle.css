@@ -1,0 +1,200 @@
+.Tela {
+    margin-top: 0;
+    display:flex;
+    flex-direction: column-reverse;
+    width: 100vw;
+    height: 90vh;
+}
+
+.Texto {
+    color: rgb(106, 122, 120);
+    font-size: 20px;
+    text-align: center;
+}
+
+.CapaConta {
+    background-image: url(./imgs/image\ 2.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    display: flex;
+    background-position: center;
+    width: 100%;
+    height: 50vh;
+}
+
+.MeusJogos {
+    background-image: url(./imgs/group\ 16.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    display: flex;
+    background-position: center;
+    width: 100%;
+    height: 50vh;
+    flex-direction: column;
+}
+
+.MeusJogos2 {
+    background-image: url(./imgs/group\ 16.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    display: none;
+    background-position: center;
+    width: 100%;
+    height: 50vh;
+    flex-direction: column;
+}
+
+.TituloJogos {
+    color: rgb(89, 168, 158);
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    height: 10%;
+}
+
+.CapaImg {
+
+
+    width: 100%;
+    height: 100%;
+}
+
+.Titulo {
+    color: rgb(89, 168, 158);
+    text-align: center;
+}
+
+.FormularioTodo {
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+
+}
+
+.Formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.Espaço {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+}
+
+.InputForm {
+    width: 80%;
+    border: none;
+    background-color: rgb(214, 210, 210);
+    box-shadow: 2px 4px 4px 2px rgb(214, 155, 149);
+    border-radius: 5%;
+    color: rgb(106, 122, 120);
+    font-size: 15px;
+    padding: 1%;
+}
+
+.Continua {
+    margin-top: 2%;
+    border: none;
+    width: 50px;
+    height: 35px;
+    background-image: url(./imgs/Arrow\ 1.png);
+    background-size: cover;
+}
+
+.ContinuaTodo {
+    display: flex;
+    justify-content:right;
+    margin-right: 6%;
+    
+}
+
+.Login {
+    color: rgb(106, 122, 120);
+    height: 30px;
+}
+
+.LoginTodo {
+    font-size: 19px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 7%;
+}
+
+.LoginTodo2 {
+    display: none;
+    font-size: 19px;
+    justify-content: start;
+    padding-top: 20%;
+    margin-left: 7%;
+    padding-bottom: 2%;
+}
+
+.ContinuaTodo2 {
+    display: none;
+}
+
+.BotãoCompra {
+    background-image: url(./imgs/group\ 20.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    width: 10%;
+    height: 10%;
+    display: flex;
+    position: absolute;
+    right: 5%;
+    bottom:1%;
+}
+
+.BotãoCompra2 {
+    background-image: url(./imgs/group\ 20.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    width: 10%;
+    height: 10%;
+    display: flex;
+    position: absolute;
+    right: 3%;
+    bottom: 100%;
+}
+
+.CampoBotões {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.BotãoContaTodo {
+    display: flex;
+    justify-content: center;
+}
+
+.Botão {
+    border-radius: 8%;
+    width: 23%;
+    border: none;
+    background-color: #4B626C;
+    display: flex;
+    padding-left: 8px;
+    justify-content: center;
+}
+
+#delete {
+    display: flex;
+    align-items: center;
+    margin-top: -3px;
+}
+
+#create {
+    display: flex;
+    align-items: center;
+    margin-top: -3px;
+}
+
+
+
