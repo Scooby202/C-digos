@@ -8,7 +8,7 @@
 
 > Status do Site Web: :warning: (em desenvolvimento)
 
-### índice 
+### Índice 
 
 :small_blue_diamond: [Descrição do projeto](#descrição-do-projeto)
 
