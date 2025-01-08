@@ -63,6 +63,10 @@ Com o React, abaixe os arquivos e abra o arquivo Principal.jsx no terminal com o
 4. npm run dev
 </p>
 
+### Bibliotecas 
+
+Material-UI : npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
+
 ### Usuários: 
 
 |name|email|password|token|
