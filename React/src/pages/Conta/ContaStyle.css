@@ -1,9 +1,20 @@
 .Tela {
     margin-top: 0;
     display:flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(251, 248, 244, 1);
+}
+
+.TelaConta {
+    margin-top: 0;
+    display:flex;
     flex-direction: column-reverse;
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
+    background-color: rgba(251, 248, 244, 1);
+    background-position: top;
 }
 
 .Texto {
@@ -13,36 +24,32 @@
 }
 
 .CapaConta {
+    margin-top: -20%;
     background-image: url(./imgs/image\ 2.png);
     background-repeat: no-repeat;
     background-size:contain;
     display: flex;
+    max-width: 100%;
     background-position: center;
     width: 100%;
     height: 50vh;
+    min-height: 500px;
 }
 
 .MeusJogos {
     background-image: url(./imgs/group\ 16.png);
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size: contain;
     display: flex;
     background-position: center;
     width: 100%;
     height: 50vh;
     flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(75, 98, 108, 1);
 }
 
-.MeusJogos2 {
-    background-image: url(./imgs/group\ 16.png);
-    background-repeat: no-repeat;
-    background-size:contain;
-    display: none;
-    background-position: center;
-    width: 100%;
-    height: 50vh;
-    flex-direction: column;
-}
 
 .TituloJogos {
     color: rgb(89, 168, 158);
@@ -53,6 +60,8 @@
     font-size: 25px;
     height: 10%;
 }
+
+
 
 .CapaImg {
 
@@ -67,6 +76,7 @@
 }
 
 .FormularioTodo {
+    margin-top: 1%;
     display: flex;
     flex-direction: column;
     height: 40%;
@@ -89,9 +99,9 @@
 .InputForm {
     width: 80%;
     border: none;
-    background-color: rgb(214, 210, 210);
-    box-shadow: 2px 4px 4px 2px rgb(214, 155, 149);
-    border-radius: 5%;
+    background-color: rgba(239, 239, 239, 1);
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 7%;
     color: rgb(106, 122, 120);
     font-size: 15px;
     padding: 1%;
@@ -109,13 +119,14 @@
 .ContinuaTodo {
     display: flex;
     justify-content:right;
-    margin-right: 6%;
-    
+    margin-right: 18%;
+    margin-top: 2%;
 }
 
 .Login {
     color: rgb(106, 122, 120);
     height: 30px;
+    margin-bottom: 2%;
 }
 
 .LoginTodo {
@@ -130,7 +141,7 @@
     display: none;
     font-size: 19px;
     justify-content: start;
-    padding-top: 20%;
+    padding-top: 15%;
     margin-left: 7%;
     padding-bottom: 2%;
 }
@@ -148,20 +159,9 @@
     display: flex;
     position: absolute;
     right: 5%;
-    bottom:1%;
+    bottom: 10%;
 }
 
-.BotãoCompra2 {
-    background-image: url(./imgs/group\ 20.png);
-    background-repeat: no-repeat;
-    background-size:contain;
-    width: 10%;
-    height: 10%;
-    display: flex;
-    position: absolute;
-    right: 3%;
-    bottom: 100%;
-}
 
 .CampoBotões {
     display: flex;
@@ -175,6 +175,7 @@
 }
 
 .Botão {
+    color:  #ffffff;
     border-radius: 8%;
     width: 23%;
     border: none;
@@ -195,6 +196,22 @@
     align-items: center;
     margin-top: -3px;
 }
+
+.ContinuaTodoR {
+    display: flex;
+    justify-content:right;
+    margin-right: 9%;
+    margin-top: 0;
+
+}
+
+.LoginTodo2m {
+    display: none;
+    flex-direction: column;
+    transform: translate(0, 60%);
+    
+}
+
 
 
 

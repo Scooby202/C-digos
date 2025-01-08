@@ -41,6 +41,7 @@ function PopularesPage () {
      
          <main class="box2">
           <section className="JanelaPopulares">
+            <h1 className="PopularesTitulo">Populares</h1>
             <div className="Exposição">
                 <div className="CapaDoJogo1">
                     {/* Capa do Jogo */}

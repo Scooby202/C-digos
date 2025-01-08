@@ -39,11 +39,7 @@ function SuaContaPage () {
             </header>
         
             <main className="Tela">
-            <div className="MeusJogos">
-                {/* Capa da tela */}
-                <h1 className="TituloJogos">Jogos Adquiridos:</h1>
-                <a className="BotãoCompra"></a>
-            </div>
+
             <div className="FormularioTodo">
               <h1 className="Titulo">Olá, "Nome do Usuário" </h1>
               <p className="Texto">Seu Email é Nomeusuário@email.com</p>
@@ -58,10 +54,9 @@ function SuaContaPage () {
               </div>
             </div>
             
-            <div className="MeusJogos2">
+            <div className="MeusJogos">
                 {/* Capa da tela */}
-                <h1 className="TituloJogos">Jogos Adquiridos:</h1>
-                <a className="BotãoCompra2"></a>
+                <a className="BotãoCompra"></a>
             </div>
         
         

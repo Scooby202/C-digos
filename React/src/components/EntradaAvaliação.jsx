@@ -44,7 +44,7 @@ function EntradaAvaliação () {
 
     return(
         <div className='ComentarioTodo'>
-            <form>
+            <form className='FormTodo'>
                 <input className='InputComentario' type='text' value={NovoComentario} onChange={(A) => setComentario(A.target.value)} placeholder='Comente'></input>
                 <button className='BotãoComentario' onClick={NewAvaliação}>Enviar</button>
             </form>

@@ -4,9 +4,16 @@
     height: 120px;
     display: flex;
     flex-direction: row-reverse;
+    margin-left: 6%;
+  }
+
+  .FormTodo {
+    display: flex;
+    flex-direction: row;
   }
 
   .InputComentario {
+    color: #FFFFFF;
     height: 20px;
     background-color: #4B626C;
     border: none;
@@ -15,9 +22,8 @@
   }
 
   .BotãoComentario {
-    display: flex;
-    margin-left: 68%;
-    height: 15px;
+    display: none;
+    height: 21px;
     width: 43px;
     border: none;
     border-radius: 10%;
