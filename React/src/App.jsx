@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import Principal from './pages/Home/Principal'
 import ContaPage from './pages/Conta/Conta'
 import LoginPage from './pages/Conta/Login/Login'

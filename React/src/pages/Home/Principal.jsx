@@ -5,20 +5,21 @@ import "./media.css"
 
 function Principal() {
 
-  
 
  function Click () {
       
     if (opcoes.style.display == 'none') {
-     opcoes.style.display = 'flex'
-     imagens.style.display = 'none'
+      opcoes.style.display = 'flex'
+      imagens.style.display = 'none'
     } else {
-     opcoes.style.display = 'none'
-     imagens.style.display = 'flex'
+      opcoes.style.display = 'none'
+      imagens.style.display = 'flex'
     }
 
   return
  }
+
+
 
   return (
   

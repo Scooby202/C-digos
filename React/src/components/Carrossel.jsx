@@ -2,12 +2,12 @@ import "../pages/Home/PrincipalStyle.css"
 import "../pages/Home/media.css"
     
 
-function Carrossel () {
+function Carrossel (valor) {
     const carrosselBox = document.querySelector("#img1")
     const image = document.querySelectorAll("#imagens img");
     let Contador = 0;
     
-    
+
     function CarrosselMove() {
         
         Contador++;
@@ -15,11 +15,10 @@ function Carrossel () {
         if ( Contador > 3 ) {
             Contador = 0;
         }
-        console.log(Contador);
         imagens.style.transform = 'translate('+((-Contador) * ((img1.clientWidth)))+'px)';
     };
 
-    setInterval(CarrosselMove, 1800);
+    setInterval(CarrosselMove, 2900);
 
 
     return (
