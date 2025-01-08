@@ -49,11 +49,19 @@ Contém secção de comentários, que funciona com userState.
 ## Como rodar a aplicação :arrow_forward:
 
 Com o React, abaixe os arquivos e abra o arquivo Principal.jsx no terminal com o seguinte comando:
-
-git clone git@github.com:Scooby202/Processo-Trainee.git
+</p>
+<p>
+  git clone git@github.com:Scooby202/Processo-Trainee.git
+</p>
+<p>
 cd Processo-Trainee
+</p>
+<p>
 npm install
+</p>
+<p>
 npm run dev
+</p>
 
 ### Usuários: 
 
