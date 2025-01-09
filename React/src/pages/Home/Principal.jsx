@@ -1,10 +1,23 @@
 import Carrossel from "../../components/Carrossel"
+import {Carrossel2Direita, Carrossel2Esquerda} from "../../components/Carrossel2"
 import "./PrincipalStyle.css"
 import "./media.css"
 
 
 function Principal() {
 
+
+  function CarrosselMove2Esquerda() {
+    Carrossel2Esquerda();
+    return
+
+ };
+
+  function CarrosselMove2Direita() {
+    Carrossel2Direita();
+    return
+
+ };
 
  function Click () {
       
@@ -56,13 +69,27 @@ function Principal() {
         <section class="lançamentos"> 
           <h1 className='textoLançamentos'>Lançamentos</h1>
             <div class="jogosLançamentos">
-              <button className='carrosselButton'>  / <br></br>\  </button>
-                <div class="imagemJogo"> <img src="./imgs/Rectangle 13.png" alt="img1" id="img-1" /></div>
-                <div class="imagemJogo"> <img src="./imgs/Rectangle 14.png" alt="img2" id="img-2" /></div>
-                <div class="imagemJogo"> <img src="./imgs/Rectangle 15.png" alt="img3" id="img-3" /></div>
-                <div class="imagemJogo"> <img src="./imgs/Rectangle 16.png" alt="img4" id="img-4" /></div>
-                <div class="imagemJogo"> <img src="./imgs/Rectangle 17.png" alt="img5" id="img-5" /></div>
-              <button className='carrosselButton'>\ <br></br> /</button>
+              <button className='carrosselButton2' onClick={CarrosselMove2Esquerda}>  / <br></br>\  </button>
+              <div className="Carrossel2" id="Carrossel2Img">
+                <div className="CarrosselDividido">
+                   <img class="imagemJogo" src="./imgs/Rectangle 13.png" alt="img1" id="img-1" />
+                   <img class="imagemJogo" src="./imgs/Rectangle 14.png" alt="img2" id="img-2" />
+                   <img class="imagemJogo" src="./imgs/Rectangle 15.png" alt="img3" id="img-3" />
+                   <img class="imagemJogo" src="./imgs/Rectangle 16.png" alt="img4" id="img-4" />
+                   <img class="imagemJogo" src="./imgs/Rectangle 17.png" alt="img5" id="img-5" />
+                   <img class="imagemJogo" src="./imgs/Rectangle 13.png" alt="img1" id="img-1" />
+                   <img class="imagemJogo" src="./imgs/Rectangle 14.png" alt="img2" id="img-2" />
+                   <img class="imagemJogo" src="./imgs/Rectangle 15.png" alt="img3" id="img-3" />
+                   <img class="imagemJogo" src="./imgs/Rectangle 16.png" alt="img4" id="img-4" />
+                   <img class="imagemJogo" src="./imgs/Rectangle 17.png" alt="img5" id="img-5" />
+                   <img class="imagemJogo" src="./imgs/Rectangle 13.png" alt="img1" id="img-1" />
+                   <img class="imagemJogo" src="./imgs/Rectangle 14.png" alt="img2" id="img-2" />
+                   <img class="imagemJogo" src="./imgs/Rectangle 15.png" alt="img3" id="img-3" />
+                   <img class="imagemJogo" src="./imgs/Rectangle 16.png" alt="img4" id="img-4" />
+                   <img class="imagemJogo" src="./imgs/Rectangle 17.png" alt="img5" id="img-5" />
+                </div>
+              </div>
+              <button className='carrosselButton2' onClick={CarrosselMove2Direita}>\ <br></br> /</button>
             </div>
            <button className='botãoCompra'><img className='ImgCompra' src="./imgs/Group 20.png" alt="comprar" /></button>
         </section>
