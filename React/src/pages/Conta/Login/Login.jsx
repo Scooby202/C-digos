@@ -16,10 +16,10 @@ function LoginPage () {
               <h1 className="Titulo">Login</h1>
               <form className="Formulario" id="form" autoComplete="on">
                 <div className="Espaço">
-                <input className="InputForm" name="email" type="email" id="email" autoComplete="email" required maxLength={30} placeholder='E-mail'></input>
+                  <input className="InputForm" name="email" type="email" id="email" autoComplete="email" required maxLength={30} placeholder='E-mail'></input>
                 </div>
                 <div className="Espaço">
-                <input className="InputForm" name="password" type="password" id="password" autoComplete="current-password" required minLength={8}maxLength={20} placeholder='Senha'></input>
+                  <input className="InputForm" name="password" type="password" id="password" autoComplete="current-password" required minLength={8}maxLength={20} placeholder='Senha'></input>
                 </div>
               </form>
               <div className="ContinuaTodo">

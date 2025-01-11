@@ -15,7 +15,7 @@ function RecuperarPage () {
               <h1 className="Titulo">Recuperar <br></br> Conta</h1>
               <form className="Formulario" id="form" autoComplete="on">
                 <div className="Espaço">
-                <input className="InputForm" type="email" id="email" placeholder='E-mail'></input>
+                  <input className="InputForm" type="email" id="email" placeholder='E-mail'></input>
                 </div>
               </form>
               <div className="ContinuaTodo">

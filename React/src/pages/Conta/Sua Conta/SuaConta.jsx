@@ -46,8 +46,8 @@ function SuaContaPage () {
 
             <div className="FormularioTodo2">
               <h1 className="Titulo2">Olá, "Nome do Usuário" </h1>
-              <p className="Texto">Seu Email é Nomeusuário@email.com</p>
-              <p className="Texto">Seu CPF é 123.456.789-00</p>
+                <p className="Texto">Seu Email é Nomeusuário@email.com</p>
+                <p className="Texto">Seu CPF é 123.456.789-00</p>
               <div className="CampoBotões">
                 <div className="BotãoContaTodo"> 
                     <button className="Botão">Alterar Dados<span class="material-icons" id='create'>create</span></button>

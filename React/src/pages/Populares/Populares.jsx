@@ -106,9 +106,9 @@ function PopularesPage () {
           <span className='todoRodape'>
             <div className='rodape'>
               <div className='loja'>
-              <img src="./imgs/image 6.png" alt="logoRodape" className='logoRodape' />
-              <p className='textoLoja'>GameStore<br></br>
-              <p className='textoLoja2'>Seu jogo favorito é aqui</p></p>
+                <img src="./imgs/image 6.png" alt="logoRodape" className='logoRodape' />
+                <p className='textoLoja'>GameStore<br></br>
+                <p className='textoLoja2'>Seu jogo favorito é aqui</p></p>
               </div>
               <div className='link'>
                 <a href="" className='linkText1'>Explorar</a>
@@ -119,13 +119,13 @@ function PopularesPage () {
               <div className='todoContato'>
                 <h2>Contato</h2>
                 <div className='contato'>
-                <img src="./imgs/Mail.png" alt="Mail" className='logoContato' /><p>gamegamedame@teste.com</p>
+                  <img src="./imgs/Mail.png" alt="Mail" className='logoContato' /><p>gamegamedame@teste.com</p>
                 </div>
                 <div className='contato'>
-                <img src="./imgs/Phone.png" alt="Telefone" className='logoContato' /><p>(99) 9 9999-9999</p>
+                  <img src="./imgs/Phone.png" alt="Telefone" className='logoContato' /><p>(99) 9 9999-9999</p>
                 </div>
                 <div className='contato'>
-                <img src="./imgs/Location.png" alt="Local" className='logoContato' /><p>Shopping X, Lavras - MG </p>
+                  <img src="./imgs/Location.png" alt="Local" className='logoContato' /><p>Shopping X, Lavras - MG </p>
                 </div>
               </div>
             </div>
