@@ -43,9 +43,13 @@ function Principal() {
           <span class="material-icons" id='menu' onClick={Click}>menu</span>
           <div className='menuTodo' id='opcoes' >
             <button className='botõesPrincipais'><a href="Lançamentos.jsx">Lançamentos </a></button>
+            <p className="Divisão"></p>
             <button className='botõesPrincipais'><a href="Populares.jsx">Populares</a></button>
+            <p className="Divisão"></p>
             <button className='botõesPrincipais'><a href="Gêneros.jsx">Gêneros</a></button>
+            <p className="Divisão"></p>
             <button className='botõesPrincipais'><a href="Promoções.jsx">Promoções</a></button>
+            <p className="Divisão"></p>
             <button className='botõesPrincipais'><a href="Conta.jsx">Conta</a></button>
             <form>
              <input className='buscar'>
@@ -106,7 +110,7 @@ function Principal() {
           <p className='textoLoja2'>Seu jogo favorito é aqui</p></p>
           </div>
           <div className='link'>
-          <a href="" className='linkText'>Explorar</a>
+          <a href="" className='linkText1'>Explorar</a>
           <a href="/" className='linkText'>Início</a>
           <a href="Populares.jsx" className='linkText'>Populares</a>
           <a href="Conta.jsx" className='linkText'>Conta</a>

@@ -6,7 +6,7 @@ function LoginPage () {
 
 
         return(
-          <body>
+          <body className="BOX">
             <main className="TelaConta">
               <div className="LoginTodo">
                 <a href="Recuperar.jsx" className="Login">Esqueceu a Senha?</a>

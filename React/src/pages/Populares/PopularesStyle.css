@@ -6,10 +6,33 @@
     background-color: rgba(251, 246, 240, 1);
   }
 
+  .Divisão {
+    display: none;
+  }
+
   .PopularesTitulo {
     color:rgba(75, 98, 108, 1);
     padding-left: 6%;
   }
+
+  .Ranking {
+    justify-content: center;
+    text-align: center;
+    font-size: 19px;
+    margin-top: -2%;
+    margin-left: -8px;
+    background: rgba(75, 98, 108, 1);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+  }
+
+  .Ranking > p {
+    color: rgba(251, 246, 240, 1);
+    margin-top: 1px;
+    padding-top: 4px;
+  }
+
 
   .JanelaPopulares {
     width: 100%;
@@ -19,6 +42,7 @@
     justify-content: space-around;
     gap: 50px;
   }
+
 
   .Exposição {
     width: 100%;
@@ -41,6 +65,8 @@
   }
 
   .CapaDoJogo1 {
+    margin-left: 25%;
+    width: 50%;
     height: 240px;
     background-image: url(./imgs/Rectangle\ 12.png);
     background-repeat: no-repeat;
@@ -51,6 +77,8 @@
   }
 
   .CapaDoJogo2 {
+    margin-left: 25%;
+    width: 50%;
     height: 240px;
     background-image: url(./imgs/Rectangle\ 22.png);
     background-repeat: no-repeat;
@@ -61,6 +89,8 @@
   }
 
   .CapaDoJogo3 {
+    margin-left: 25%;
+    width: 50%;
     height: 240px;
     background-image: url(./imgs/Rectangle\ 10.png);
     background-repeat: no-repeat;

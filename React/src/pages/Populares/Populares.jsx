@@ -24,9 +24,13 @@ function PopularesPage () {
               <span class="material-icons" id='menu' onClick={Click}>menu</span>
               <div className='menuTodo' id='opcoes' >
                 <button className='botõesPrincipais'><a href="Lançamentos.jsx">Lançamentos </a></button>
+                <p className="Divisão"></p>
                 <button className='botõesPrincipais'><a href="Populares.jsx">Populares</a></button>
+                <p className="Divisão"></p>
                 <button className='botõesPrincipais'><a href="Gêneros.jsx">Gêneros</a></button>
+                <p className="Divisão"></p>
                 <button className='botõesPrincipais'><a href="Promoções.jsx">Promoções</a></button>
+                <p className="Divisão"></p>
                 <button className='botõesPrincipais'><a href="Conta.jsx">Conta</a></button>
                 <form>
                  <input className='buscar'>
@@ -44,6 +48,7 @@ function PopularesPage () {
             <h1 className="PopularesTitulo">Populares</h1>
             <div className="Exposição">
                 <div className="CapaDoJogo1">
+                  <div className="Ranking"><p>1°</p></div>
                     {/* Capa do Jogo */}
                 </div>
                 <div className="TextoJogo">
@@ -58,6 +63,7 @@ function PopularesPage () {
             </div>
             <div className="Exposição">
                 <div className="CapaDoJogo2">
+                <div className="Ranking"><p>2°</p></div>
                     {/* Capa do Jogo */}
                 </div>
                 <div className="TextoJogo">
@@ -72,6 +78,7 @@ function PopularesPage () {
             </div>
             <div className="Exposição">
                 <div className="CapaDoJogo3">
+                <div className="Ranking"><p>3°</p></div>
                     {/* Capa do Jogo */}
                 </div>
                 <div className="TextoJogo">
@@ -104,7 +111,7 @@ function PopularesPage () {
               <p className='textoLoja2'>Seu jogo favorito é aqui</p></p>
               </div>
               <div className='link'>
-                <a href="" className='linkText'>Explorar</a>
+                <a href="" className='linkText1'>Explorar</a>
                 <a href="/" className='linkText'>Início</a>
                 <a href="Populares.jsx" className='linkText'>Populares</a>
                 <a href="Conta.jsx" className='linkText'>Conta</a>

@@ -6,7 +6,7 @@ function ContaPage() {
 
 
   return (
-  <body>
+  <body className="BOX">
 
     <main className="TelaConta">
       <div className="LoginTodo">

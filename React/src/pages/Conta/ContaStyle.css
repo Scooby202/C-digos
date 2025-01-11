@@ -1,3 +1,7 @@
+.BOX {
+    overflow-y: hidden;
+}
+
 .Tela {
     margin-top: 0;
     display:flex;
@@ -20,7 +24,8 @@
 .Texto {
     color: rgb(106, 122, 120);
     font-size: 20px;
-    text-align: center;
+    text-align: left;
+    padding-left: 2%;
 }
 
 .CapaConta {
@@ -71,11 +76,24 @@
 }
 
 .Titulo {
-    color: rgb(89, 168, 158);
+    color: rgba(75, 98, 108, 1);
     text-align: center;
 }
 
+.Titulo2{
+    text-align: center;
+    color: rgba(75, 98, 108, 1);
+}
+
 .FormularioTodo {
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+
+}
+
+.FormularioTodo2 {
     margin-top: 1%;
     display: flex;
     flex-direction: column;

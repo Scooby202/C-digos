@@ -17,16 +17,20 @@ function SuaContaPage () {
          }
 
         return(
-          <body>
+          <body className="BOX">
             <header>
             <div class="barra">
               <a href="/"><img className='logo' src=".\imgs\image 3.png" alt="Imagem do site" /></a>
               <span class="material-icons" id='menu' onClick={Click}>menu</span>
               <div className='menuTodo' id='opcoes' >
                 <button className='botõesPrincipais'><a href="Lançamentos.jsx">Lançamentos </a></button>
+                <p className="Divisão"></p>
                 <button className='botõesPrincipais'><a href="Populares.jsx">Populares</a></button>
+                <p className="Divisão"></p>
                 <button className='botõesPrincipais'><a href="Gêneros.jsx">Gêneros</a></button>
+                <p className="Divisão"></p>
                 <button className='botõesPrincipais'><a href="Promoções.jsx">Promoções</a></button>
+                <p className="Divisão"></p>
                 <button className='botõesPrincipais'><a href="Conta.jsx">Conta</a></button>
                 <form>
                  <input className='buscar'>
@@ -40,8 +44,8 @@ function SuaContaPage () {
         
             <main className="Tela">
 
-            <div className="FormularioTodo">
-              <h1 className="Titulo">Olá, "Nome do Usuário" </h1>
+            <div className="FormularioTodo2">
+              <h1 className="Titulo2">Olá, "Nome do Usuário" </h1>
               <p className="Texto">Seu Email é Nomeusuário@email.com</p>
               <p className="Texto">Seu CPF é 123.456.789-00</p>
               <div className="CampoBotões">

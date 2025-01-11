@@ -18,7 +18,7 @@ function Carrossel () {
         imagens.style.transform = 'translate('+((-Contador) * ((img1.clientWidth)))+'px)';
     };
 
-    setInterval(CarrosselMove, 2000);
+    setInterval(CarrosselMove, 2800);
 
 
     return (

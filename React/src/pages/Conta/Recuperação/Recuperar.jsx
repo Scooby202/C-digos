@@ -5,7 +5,7 @@ import Validação from "../../../components/Validação"
 function RecuperarPage () {
 
         return(
-          <body>
+          <body className="BOX">
         
             <main className="TelaConta">
               <div className="LoginTodo">
